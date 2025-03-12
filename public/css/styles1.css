@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Background Styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('../images/bg.png') no-repeat center center/cover;
+}
+
+/* Main Container */
+.container {
+    display: flex;
+    background: rgba(255, 255, 255, 0.7); 
+    border-radius: 10px;
+    padding: 30px;
+    width: 800px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Box */
+.form-box {
+    background: linear-gradient(to bottom, #77a290, #8ebdaa);
+    padding: 30px;
+    border-radius: 10px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.form-box h2 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* Input Fields */
+.input-box {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.input-box input,
+.input-box select {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.input-box select {
+    color: gray; 
+    background: white;
+}
+
+.input-box select option {
+    color: black;
+}
+
+.input-box select:invalid {
+    color: gray;
+}
+
+/* Link Styling */
+.form-box p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.form-box a {
+    text-decoration: none;
+    color: #356859;
+    font-weight: bold;
+}
+
+/* Button Styling */
+button {
+    width: 100%;
+    padding: 12px;
+    background: #F8E16C;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #E4C75A;
+}
+
+/* Logo Styling */
+.logo-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-container img {
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+.logo-container h3 {
+    font-size: 18px;
+    color: #356859;
+    font-weight: 600;
+}
